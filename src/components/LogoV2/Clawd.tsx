@@ -59,7 +59,7 @@ export function Clawd({ pose = 'default' }: Props = {}): React.ReactNode {
     <Box flexDirection="column">
       <Text>
         <Text color="clawd_body">{p.r1L}</Text>
-        <Text color="clawd_body" backgroundColor="clawd_background">
+        <Text color="clawd_body" backgroundColor="clawd_eye_background">
           {p.r1E}
         </Text>
         <Text color="clawd_body">{p.r1R}</Text>
